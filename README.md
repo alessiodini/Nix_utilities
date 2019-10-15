@@ -2,4 +2,4 @@
 
 This repository contains several utilities for \*nix platforms
 
-idrac_pwd.pl : it reset the root password of iDrac
+du.sh : it calculates the space consumed by each directory ordering the output by consumption
