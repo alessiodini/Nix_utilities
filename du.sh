@@ -1,0 +1,1 @@
+\du -sh * | tee /tmp/prova.txt | grep '[0-9]\{1,3\}T' | grep '[0-9]\{1,3\}G' | sort -rn ; cat /tmp/prova.txt | grep '[0-9]\{1,3\}M' | sort -rn ; cat /tmp/prova.txt | grep '[0-9]\{1,3\}K' | sort -rn ; rm /tmp/prova.txt
